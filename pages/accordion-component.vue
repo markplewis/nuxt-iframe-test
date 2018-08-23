@@ -21,5 +21,9 @@
   @import "assets/stylesheets/components.button";
 
   @media (min-width: 600px) {}
+
+  // body {
+  //   background-color: green;
+  // }
 </style>
 
