@@ -1,0 +1,24 @@
+@import "settings.colors";
+
+.c-button {
+  min-width: 44px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: $color-gray;
+  appearance: none;
+  display: block;
+  &:hover,
+  &:focus {
+    background-color: lighten($color-gray, 10%);
+  }
+}
+.c-button__text {
+  vertical-align: middle;
+  display: inline-block;
+}

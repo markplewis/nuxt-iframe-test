@@ -1,0 +1,13 @@
+@import "settings.colors";
+@import "settings.fonts";
+
+* {
+  line-height: inherit;
+}
+body {
+  font-family: $font-sans-stack;
+  font-size: 100%;
+  line-height: 1.2;
+  color: darken($color-stone, 40%);
+  background-color: $color-stone;
+}

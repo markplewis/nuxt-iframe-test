@@ -1,0 +1,42 @@
+@import "settings.colors";
+
+.c-accordion {
+  margin: 10px 0;
+}
+.c-accordion__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  flex-direction: column;
+}
+.c-accordion__item {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.c-accordion__item-container {
+  min-height: 45px;
+  border-bottom: 1px solid darken($color-gray, 10%);
+  flex: 1 1 100%;
+  display: flex;
+  align-items: stretch;
+}
+.c-accordion__item-link {
+  min-width: 0;
+  padding: 8px 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  color: $color-white;
+  background-color: $color-black;
+  text-transform: uppercase;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    background-color: lighten($color-black, 10%);
+    text-decoration: underline;
+  }
+}
